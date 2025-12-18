@@ -17,9 +17,44 @@ Collection of one-shot installer scripts for common desktop applications on Ubun
 - NordVPN CLI/GUI (`install-nordvpn-gui.sh`)
 
 ## Usage
-Make scripts executable if needed, then run with bash:
+Make scripts executable if needed, then run with bash. Example invocations for each installer:
+
 ```bash
+# Visual Studio Code
 bash ./install-visual-studio-code.sh
+
+# Google Chrome
+bash ./install-google-chrome.sh
+
+# Docker Desktop
+bash ./install-docker-desktop.sh
+
+# Docker Compose plugin
+bash ./install-docker-compose.sh
+
+# Python 3 with pip/venv
+bash ./install-python3.sh
+
+# Steam
+bash ./install-steam.sh
+
+# OBS Studio
+bash ./obs-studio.sh
+
+# VirtualBox
+bash ./install-virtualbox.sh
+
+# Wine
+bash ./install-wine.sh
+
+# VLC
+bash ./install-vlc.sh
+
+# Cloudflare WARP CLI (with registration)
+bash ./install-warp-cli.sh
+
+# NordVPN CLI/GUI
+bash ./install-nordvpn-gui.sh
 ```
 
 ### Run everything at once
